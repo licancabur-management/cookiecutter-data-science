@@ -2,3 +2,5 @@
 ==============================
 
 {{cookiecutter.description}}
+
+- Intalling packages: docker-compose run app poetry install
