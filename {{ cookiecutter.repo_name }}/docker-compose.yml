@@ -1,6 +1,13 @@
 version: "3.7"
 services:
+  libs:
+    image: busybox
+    volumes:
+      - /project_libs
   app:
     build: .
     volumes:
       - .:/project
+      - project_libs:/project_libs
+volumes:
+  project_libs:

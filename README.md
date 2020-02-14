@@ -16,4 +16,4 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/licancabur-management/cookiecutter-data-science
+    cookiecutter https://github.com/volcano-assets/cookiecutter-data-science

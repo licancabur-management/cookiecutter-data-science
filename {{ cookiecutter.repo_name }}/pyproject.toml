@@ -8,3 +8,5 @@ authors = ["{{ cookiecutter.author_name }}"]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7.9"
